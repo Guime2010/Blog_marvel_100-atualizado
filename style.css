@@ -1,0 +1,30 @@
+
+body{
+    background-color:black;
+    color:white;
+    text-align: center;
+    font-family: 'Zen Dots', cursiva;
+}
+#alex{
+    width:100%;
+}
+.filmestext{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.filmeshead{
+    text-align:left;
+    font-size: 20px;
+    background-color: blue;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.filmeshead i {
+    float: right;
+}
+
