@@ -1,21 +1,27 @@
-
 body{
     background-color:black;
     color:white;
     text-align: center;
     font-family: 'Zen Dots', cursiva;
 }
-#alex{
-    width:100%;
+
+.pageheader{
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+#filmes{
+    margin-top: 40px;
 }
 .filmestext{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 p{
     font-size: 25px;
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 .filmeshead{
     text-align:left;
@@ -27,4 +33,38 @@ p{
 .filmeshead i {
     float: right;
 }
+h4{
+    margin-top: 0;
+}
+.hq{
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-top: 20px;
+}
 
+#creditos{
+   width: 100%;
+}
+
+#imgprincipal{
+    margin-top: 80px;
+}
+.myNavbar{
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+#minhanavbar a{
+    font-size: 16px;
+}
+.textFilm{
+    
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 0;
+    width: 90%;
+}
+.alex{
+    width: 100%;
+    padding: 20px;
+}
